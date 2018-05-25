@@ -1,24 +1,8 @@
-# README
+Problem:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- start server
+- remove puts line from example_controller.rb#action1
+- request /action1
+Expected behaviour: In log I see "Scheduler: hey". 
+Reality: In log I see "Scheduler: " (in byebug I see it's nil)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
